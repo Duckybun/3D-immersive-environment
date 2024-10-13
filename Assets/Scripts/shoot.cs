@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallShooter : MonoBehaviour
+public class shoot : MonoBehaviour
 {
     public GameObject ballPrefab;
     public float shootForce = 10.0f;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             ShootBall();
         }
